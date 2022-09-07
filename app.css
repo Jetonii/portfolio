@@ -20,6 +20,7 @@ nav {
 section {
     background-color: #ececec;
 }
+
 nav span {
     position: absolute;
     left: 2%;
@@ -75,6 +76,7 @@ nav li:hover {
     width: 80%;
     margin: auto;
 }
+
 aside h1 {
     font-size: 40px;
 }
@@ -86,13 +88,15 @@ aside button {
     border: none;
     padding: 8px;
 }
+
 aside button a {
     text-decoration: none;
     color: inherit;
     font-size: 17px;
     font-weight: 900;
 }
-aside button:hover{
+
+aside button:hover {
     background-color: aquamarine;
     padding: 10px;
     border: 2px solid black;
@@ -114,20 +118,23 @@ aside button:hover{
     border: 1px solid black
 }
 
-.outside-section{
+.outside-section {
     background-color: #e1e1e1;
     text-decoration: underline;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 10px;
 }
-#about #bio, #name{
+
+#about #bio,
+#name {
     font-size: 20px;
     font-weight: 100;
-    color: darkred ;
+    color: darkred;
     margin: auto;
     margin-right: 15%;
 }
+
 #name {
     display: block;
     font-size: 25px;
@@ -141,7 +148,8 @@ aside button:hover{
     border: 2px solid black;
     padding: 30px;
 }
-#skills h1:hover{
+
+#skills h1:hover {
     background-color: aquamarine;
 }
 
@@ -161,7 +169,7 @@ aside button:hover{
     border: 2px solid black;
 }
 
-#projects img:hover{
+#projects img:hover {
     opacity: 0.7;
 }
 
@@ -170,7 +178,9 @@ aside button:hover{
     flex-direction: column;
     align-items: center;
 }
-#contact input, textarea {
+
+#contact input,
+textarea {
     margin-top: 10px;
     border-radius: 5px;
     padding: 20px;
@@ -184,7 +194,8 @@ aside button:hover{
     background-color: aqua;
     padding-top: 3px;
 }
-#contact button  {
+
+#contact button {
     width: 100px;
     height: 40px;
     background-color: aqua;
@@ -194,13 +205,14 @@ aside button:hover{
     font-weight: 900;
     margin-bottom: 20px;
 }
-#contact button:hover{
+
+#contact button:hover {
     background-color: aquamarine;
     padding: 11px;
     border: 2px solid black;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -210,31 +222,36 @@ footer{
     background-color: black;
 }
 
-footer a {
-    text-decoration: none;
-    color: inherit;
-}
 
-footer span i{
+
+footer span i {
     margin-top: 20px;
 }
 
-footer h3, h4{
+footer h3,
+h4 {
     font-weight: 100;
     margin-top: 20px;
 }
 
+footer a {
+    text-decoration: none;
+    color: inherit;
+    display: inline;
+}
 
-@media (max-width: 650px){
+
+@media (max-width: 650px) {
     body {
         padding: 0;
     }
-    
+
     nav {
         display: none;
         /* margin-bottom: 43vh; */
 
     }
+
     nav ul {
         display: flex;
         flex-direction: column;
@@ -242,15 +259,19 @@ footer h3, h4{
         align-items: center;
         background-color: white;
     }
-    
-    nav ul li, li a {
+
+    nav ul li,
+    li a {
         border: 1px solid black;
         width: 200px;
         color: black;
     }
-    nav ul li:hover, li a:hover{
+
+    nav ul li:hover,
+    li a:hover {
         background-color: darkred;
     }
+
     #hamburgeri {
         display: flex;
         justify-content: flex-end;
@@ -260,10 +281,12 @@ footer h3, h4{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
+
     #about {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
+
     #about #bio {
         text-align: center;
         margin: 10px;
